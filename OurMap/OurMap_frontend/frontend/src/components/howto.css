@@ -1,0 +1,88 @@
+.howtoContainer{
+  width: 33%;
+  height: 75%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(51, 50, 50, 0.5);
+  z-index: 3;
+  background-color: dodgerblue;
+  color: rgb(50, 50, 100);
+  position: absolute;
+  top: 5%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.howtoLogo{
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.howtoLogo img{
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+
+.howtoContainer h4 {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.textContainer{
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+  border: 1px inset white;
+  overflow-y: scroll;
+
+}
+
+.textContainer p {
+  font-size: 14px;
+}
+
+.textContainer p span {
+  font-weight: bold;
+}
+
+.sub {
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.howtoCancel{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.howtoCancel:hover{
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1000px) {
+  .howtoContainer {
+    width: 75%;
+    height: 70%;
+  }
+  .textContainer p {
+    font-size: 12px;
+  }
+  .textContainer .sub {
+    font-size: 10px;
+  }
+}
