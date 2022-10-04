@@ -6,7 +6,7 @@ OurMap is an interactive map where users can set pin on locations of their inter
 ### Frontend
 Starting at the project's root:
 ```
-cd frontend
+cd OurMap_frontend/frontend/
 npm install yarn
 npm install react-scripts
 ```
