@@ -3,7 +3,7 @@
 OurMap is an interactive map where users can set pin on locations of their interest, leaving reviews, comments, or summaries about places they have been to.
 
 ## Local Installation
-## Frontend
+### Frontend
 Starting at the project's root:
 ```
 cd frontend
@@ -14,7 +14,7 @@ To run the project:
 ```
 yarn start
 ```
-##Backend
+### Backend
 Starting at the project's root:
 ```
 npm install yarn
