@@ -54,7 +54,7 @@ You may only delete pins that are associated with your account. To delete a pin,
 More in depth instructions can also be found with the How to Use button found in the navigation bar of the site.
 
 ## Front End and Back End
-This repository contains the front end of the app, where we interact with the user, draw the map, and allow the user to create pins. The [back end can be found here](https://github.com/tydan3/OurMap_Backend).
+This repository contains the front end of the app, where we interact with the user, draw the map, and allow the user to create pins. The backend repository is added as a submodule. For more information on how to use submodules, please refer to this [link](https://github.blog/2016-02-01-working-with-submodules/).
 
 ## CI/CD Pipeline
 ![image](https://user-images.githubusercontent.com/34032935/193659142-686413f0-91d4-48f5-a3f2-985b8b82583b.png)
