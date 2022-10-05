@@ -80,7 +80,7 @@ yarn start
 ### Backend
 Starting at the project's root directory:
 ```
-cd OurMap/backend
+cd OurMap/OurMap_backend
 npm install yarn
 npm install react-scripts
 ```
