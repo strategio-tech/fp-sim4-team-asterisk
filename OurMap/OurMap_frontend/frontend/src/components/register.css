@@ -1,0 +1,73 @@
+.registerContainer{
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 3;
+  background-color: dodgerblue;
+  box-shadow: 3px 3px 20px rgba(51, 50, 50, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.registerContainer input {
+  border: 00.25px inset white;
+  border-radius: 5px;
+}
+
+.logo{
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.logo img{
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+
+.registerButton{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(255, 75, 75);
+  border: 00.25px outset white;
+}
+.registerButton:hover{
+  transform: scale(1.05);
+}
+
+.success {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.registerError {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.registerCancel{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.registerCancel:hover{
+  transform: scale(1.1);
+}
